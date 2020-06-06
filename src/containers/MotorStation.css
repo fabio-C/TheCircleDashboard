@@ -1,0 +1,28 @@
+.MotorStation {
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.MotorStation h1 {
+	text-align: center;
+	color: gray;
+	text-transform: uppercase;
+}
+
+.MotorStation button.motorbutton {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 20px;
+	font-size: large;
+	font-weight: bold;
+}
+
+.MotorStation button#settings {
+	background-color: gray;
+	display: block;
+}
+
+.MotorStation button#settings img {
+    width: 30px;
+}

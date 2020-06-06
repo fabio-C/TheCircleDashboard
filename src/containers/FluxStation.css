@@ -1,0 +1,59 @@
+.FluxStation {
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.FluxStation h1 {
+	text-align: center;
+	color: gray;
+	text-transform: uppercase;
+}
+
+.FluxStation .card {
+	margin-bottom: 20px;
+}
+
+.FluxStation .card .card-title {
+    margin-bottom: 0;
+}
+
+.FluxStation .card .card-footer {
+	font-size: small;
+}
+
+.FluxStation .sensorCard .card-header {
+	padding:0;
+}
+
+.FluxStation .relayCard .card-header {
+	background-color: #969696;
+	color: white;
+	text-align: center;
+}
+
+.FluxStation .relayCard .card-body {
+	text-align: center;
+}
+.FluxStation .relayCard .card-body button.OFF {
+	background-color: #cc4242;
+}
+
+.FluxStation .relayCard .card-body button.ON {
+    background-color: #5bb864;
+}
+
+.FluxStation .pumpCard select {
+    background-color: white;
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.FluxStation .pumpCard input {
+	border-style: none;
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}

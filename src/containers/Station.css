@@ -1,0 +1,77 @@
+.Station {
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.Station h1 {
+	text-align: center;
+	color: gray;
+	text-transform: uppercase;
+}
+
+.Station .card {
+	margin-bottom: 20px;
+}
+
+.Station .card .card-title {
+    margin-bottom: 0;
+}
+
+.Station .card .card-footer {
+	font-size: small;
+}
+
+.Station .sensorCard .card-header {
+	padding:0;
+}
+
+.Station .sensorCard .card-body span {
+	color: gray;
+    margin-left: 5px;
+}
+
+.Station .relayCard .card-header {
+	background-color: #969696;
+	color: white;
+	text-align: center;
+}
+
+.Station .relayCard .card-body {
+	text-align: center;
+}
+.Station .relayCard .card-body button.OFF {
+	background-color: #cc4242;
+}
+
+.Station .relayCard .card-body button.ON {
+    background-color: #5bb864;
+}
+
+.Station .sensorCard button {
+   width: 100%;
+   font-size: large;
+   background-color: #5bb864;
+   border-width: 0;
+   height: 8vh;
+   color: #ffffff;
+}
+
+.Station button#settings {
+	background-color: gray;
+	margin-bottom: 20px;
+}
+
+.Station button#settings img{
+	width: 30px;
+}
+
+.Station a#iplink{
+	display: none;
+}
+
+@media screen and (min-width: 800px) {
+	.Station a#iplink{
+		display: block;
+	}
+}

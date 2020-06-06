@@ -1,0 +1,46 @@
+
+.Home {
+  background-color: white;
+  padding-top: 20px;
+}
+
+.Home .card {
+  margin-bottom: 20px;
+}
+
+.Home .card .card-header{
+  padding: 0;
+}
+
+.Home .card button {
+  width: 100%;
+  font-size: x-large;
+  background-color: #ffffff;
+  border-width: 0;
+  height: 10vh;
+  font-weight: 800;
+  color: #1ca22c;
+  text-shadow: 0 0 6px #55cf5d;
+}
+
+.Home #notesContainer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.Home h1 {
+  font-size: x-large;
+}
+.Home #notesContainer button#deleteallbtn{
+  margin-bottom: 10px;
+  background-color: #cc4242;
+  border-color: transparent;
+}
+
+.Home .alert {
+  font-size: small;
+}
+
+.Home .alert-info {
+    background-color: #e6ffe8;
+    border-color: #8bffa4;
+}

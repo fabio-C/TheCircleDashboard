@@ -1,0 +1,25 @@
+.Graph {
+	background-color: white;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.Graph h1 {
+	text-align: center;
+	color: gray;
+	text-transform: uppercase;
+}
+
+.Graph h3 {
+	padding: 20px;
+}
+
+.Graph button{
+	background-color: rgb(6, 148, 6);
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: #6f6f6f;;
+}

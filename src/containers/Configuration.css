@@ -1,0 +1,51 @@
+.Configuration {
+	background-color: white;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.Configuration h1 {
+	text-align: center;
+	color: gray;
+	text-transform: uppercase;
+}
+
+.Configuration input.timeon {
+    width: 40%;
+    text-align: center;
+}
+
+.Configuration input.timeoff {
+	width: 50%;
+    text-align: center;
+}
+
+.Configuration #configuration-button-container {
+	margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Configuration #configuration-button-container button {
+	background-color: gray;
+}
+
+.Configuration .tab-content {
+	margin-top: 20px;
+}
+
+.Configuration .row-button-container {
+	margin-top: 10px;
+}
+
+.Configuration .row-button-container button {
+	margin-right: 20px;
+	width: 20%;
+}
+
+.Configuration #hotcoldcontainer {
+	margin-top: 30px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #5bb864;
+}

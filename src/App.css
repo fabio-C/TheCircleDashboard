@@ -1,0 +1,29 @@
+/*
+	red: #cc4242;
+	green: #5bb864;
+*/
+body {
+  background-color: #2f2f2f;
+}
+
+a {color: #5bb864}
+
+.navbar-light .navbar-text {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-brand a {
+	color: rgb(6, 148, 6);
+}
+
+.navbar #server-connected {
+	color: #5bb864;
+}
+
+.navbar #server-disconnected {
+	color:#cc4242;
+}
+
+#logo {
+    width: 40px;
+}
